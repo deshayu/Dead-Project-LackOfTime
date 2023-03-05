@@ -6,33 +6,33 @@
 
 class Graphics{
 
-public:
+    public:
 
-    static const int SCREEN_WIDTH = 800;
-    static const int SCREEN_HEIGHT = 600;
+        static const int SCREEN_WIDTH = 800;
+        static const int SCREEN_HEIGHT = 600;
 
-private:
+    private:
 
-    static Graphics* sInstance;
-    static bool sInitialized;
+        static Graphics* sInstance;
+        static bool sInitialized;
 
-    SDL_Window* mWindow;
-    SDL_Surface* mBackBuffer;
+        SDL_Window* mWindow;
+        SDL_Surface* mBackBuffer;
 
-public:
+    public:
 
-    static Graphics* Instance();
-    static void Release();
-    static bool Initialized();
+        static Graphics* Instance();
+        static void Release();
+        static bool Initialized();
 
-    void Render();
+        void Render();
 
-private: 
+    private: 
 
-    Graphics();
-    ~Graphics();
+        Graphics();
+        ~Graphics();
 
-    bool Init();
+        bool Init();
 };
 
 #endif

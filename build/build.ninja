@@ -527,6 +527,13 @@ build src/CMakeFiles/sdl_tower.dir/Graphics.cpp.o: CXX_COMPILER__sdl_tower_Debug
   OBJECT_DIR = src/CMakeFiles/sdl_tower.dir
   OBJECT_FILE_DIR = src/CMakeFiles/sdl_tower.dir
 
+build src/CMakeFiles/sdl_tower.dir/Timer.cpp.o: CXX_COMPILER__sdl_tower_Debug /home/Chens/Documents/Git/Pizza$ Tower/SDL-Tower/src/Timer.cpp || cmake_object_order_depends_target_sdl_tower
+  DEP_FILE = src/CMakeFiles/sdl_tower.dir/Timer.cpp.o.d
+  FLAGS = -g
+  INCLUDES = -I"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include"
+  OBJECT_DIR = src/CMakeFiles/sdl_tower.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/sdl_tower.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target sdl_tower
@@ -535,7 +542,7 @@ build src/CMakeFiles/sdl_tower.dir/Graphics.cpp.o: CXX_COMPILER__sdl_tower_Debug
 #############################################
 # Link the executable src/sdl_tower
 
-build src/sdl_tower: CXX_EXECUTABLE_LINKER__sdl_tower_Debug src/CMakeFiles/sdl_tower.dir/main.cpp.o src/CMakeFiles/sdl_tower.dir/GameManager.cpp.o src/CMakeFiles/sdl_tower.dir/Graphics.cpp.o
+build src/sdl_tower: CXX_EXECUTABLE_LINKER__sdl_tower_Debug src/CMakeFiles/sdl_tower.dir/main.cpp.o src/CMakeFiles/sdl_tower.dir/GameManager.cpp.o src/CMakeFiles/sdl_tower.dir/Graphics.cpp.o src/CMakeFiles/sdl_tower.dir/Timer.cpp.o
   FLAGS = -g
   LINK_FLAGS = -rdynamic
   LINK_LIBRARIES = -lSDL2main  -lSDL2

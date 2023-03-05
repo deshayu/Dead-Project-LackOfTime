@@ -27,6 +27,8 @@ GameManager::GameManager(){
 	// Quits the game if SDL fails to initialize
 	if(!Graphics::Initialized())
 		mQuit = true;
+
+	mTimer = Timer::Instance();
 }
 
 GameManager::~GameManager(){
@@ -39,13 +41,23 @@ void GameManager::Run(){
     
     while(!mQuit){
 
+        //Update the timer
+		mTimer->Update();
+
         while(SDL_PollEvent(&mEvents) != 0){
 			//Checks if the user quit the game
 			if(mEvents.type == SDL_QUIT) {
 
 				mQuit = true;
 			}
-            mGraphics->Render();
+		}
+		if(mTimer->DeltaTime() >= 1.0f / FRAME_RATE){
+
+			//printf("DeltaTime: %f\n", mTimer->DeltaTime());
+
+			mGraphics->Render();
+
+			mTimer->Reset();
 		}
     }
 }

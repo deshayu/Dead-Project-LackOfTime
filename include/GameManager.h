@@ -2,29 +2,34 @@
 #define _GAMEMANAGER_H
 // Headers
 #include "Graphics.h"
+#include "Timer.h"
 
 class GameManager{
 
-private:
+    private:
 
-    static GameManager* sInstance;
+        static GameManager* sInstance;
 
-    bool mQuit;
-    Graphics* mGraphics;
+        const int FRAME_RATE = 60;
 
-    SDL_Event mEvents;
+        bool mQuit;
+        Graphics* mGraphics;
 
-public:
+        Timer* mTimer;
 
-    static GameManager* Instance();
-    static void Release();
+        SDL_Event mEvents;
 
-    void Run();
+    public:
 
-private:
+        static GameManager* Instance();
+        static void Release();
 
-    GameManager();
-    ~GameManager();
-};
+        void Run();
+
+    private:
+
+        GameManager();
+        ~GameManager();
+    };
 
 #endif
