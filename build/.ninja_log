@@ -1,0 +1,15 @@
+# ninja log v5
+1	1090	1678037933977403648	CMakeFiles/sdl_tower.dir/main.cpp.o	e5f13305d70c5be1
+1090	1172	1678037934058403654	sdl_tower	f98a0e375156d28e
+1	161	1678046815779042369	CMakeFiles/sdl_tower.dir/src/graphics.cpp.o	f01f90a4ee01739d
+0	864	1678048449392159848	src/CMakeFiles/sdl_tower.dir/graphics.cpp.o	46d66c3597873970
+1	829	1678048631414172938	src/CMakeFiles/sdl_tower.dir/Graphics.cpp.o	8463eade79d2c4ac
+2	843	1678049407328228737	src/CMakeFiles/sdl_tower.dir/main.cpp.o	22713014d26b69f5
+1	823	1678049548384238881	src/CMakeFiles/sdl_tower.dir/GameManager.cpp.o	3e899ef1cb121343
+823	915	1678049548476238887	src/sdl_tower	7e2c4d10207c8ee8
+2	821	1678050850193332498	src/CMakeFiles/sdl_tower.dir/GameManager.cpp.o	3e899ef1cb121343
+821	913	1678050850285332505	src/sdl_tower	7e2c4d10207c8ee8
+1	888	1678051019569344679	src/CMakeFiles/sdl_tower.dir/GameManager.cpp.o	3e899ef1cb121343
+889	978	1678051019658344685	src/sdl_tower	7e2c4d10207c8ee8
+1	868	1678051854689404735	src/CMakeFiles/sdl_tower.dir/GameManager.cpp.o	3e899ef1cb121343
+869	971	1678051854792404742	src/sdl_tower	7e2c4d10207c8ee8

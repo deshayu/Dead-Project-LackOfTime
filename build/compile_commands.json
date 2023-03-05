@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build",
+  "command": "/usr/bin/g++ -I\"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include\" -g -o src/CMakeFiles/sdl_tower.dir/main.cpp.o -c \"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/main.cpp\"",
+  "file": "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/main.cpp"
+},
+{
+  "directory": "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build",
+  "command": "/usr/bin/g++ -I\"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include\" -g -o src/CMakeFiles/sdl_tower.dir/GameManager.cpp.o -c \"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/GameManager.cpp\"",
+  "file": "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/GameManager.cpp"
+},
+{
+  "directory": "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build",
+  "command": "/usr/bin/g++ -I\"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include\" -g -o src/CMakeFiles/sdl_tower.dir/Graphics.cpp.o -c \"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/Graphics.cpp\"",
+  "file": "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/Graphics.cpp"
+}
+]
