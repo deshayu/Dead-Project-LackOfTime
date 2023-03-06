@@ -161,6 +161,9 @@
 		},
 		{
 			"path" : "src/CMakeLists.txt"
+		},
+		{
+			"path" : "src/Entities/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

@@ -3,6 +3,7 @@
 // Headers
 #include "Graphics.h"
 #include "Timer.h"
+#include "GameEntity.h"
 
 class GameManager{
 
@@ -18,6 +19,9 @@ class GameManager{
         Timer* mTimer;
 
         SDL_Event mEvents;
+
+        GameEntity* mParent;
+        GameEntity* mChild;
 
     public:
 

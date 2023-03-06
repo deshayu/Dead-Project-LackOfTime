@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.0.0)
-project(sdl_tower VERSION 0.0.1)
+project(SDL_Tower VERSION 0.0.1)
 
 # Directories
 add_subdirectory(src)
 # Headers
-target_include_directories(sdl_tower PRIVATE include/)
+target_include_directories(SDL_Tower_exe PRIVATE include/ include/Entities)
 
 include(CTest)
 enable_testing()

@@ -147,7 +147,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=sdl_tower
+CMAKE_PROJECT_NAME:STATIC=SDL_Tower
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=0.0.1
@@ -311,6 +311,33 @@ MyProject_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 MyProject_SOURCE_DIR:STATIC=/home/Chens/Documents/Git/Pizza Tower/SDL-Tower
 
+//Value Computed by CMake
+SDL_Tower_BINARY_DIR:STATIC=/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build
+
+//Value Computed by CMake
+SDL_Tower_EXE_BINARY_DIR:STATIC=/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build/src
+
+//Value Computed by CMake
+SDL_Tower_EXE_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+SDL_Tower_EXE_SOURCE_DIR:STATIC=/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src
+
+//Value Computed by CMake
+SDL_Tower_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+SDL_Tower_SOURCE_DIR:STATIC=/home/Chens/Documents/Git/Pizza Tower/SDL-Tower
+
+//Value Computed by CMake
+SDL_Tower_exe_BINARY_DIR:STATIC=/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build/src
+
+//Value Computed by CMake
+SDL_Tower_exe_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+SDL_Tower_exe_SOURCE_DIR:STATIC=/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src
+
 //Name of the computer/site where compile is being run
 SITE:STRING=Shark
 
@@ -324,13 +351,22 @@ sdl_tower_IS_TOP_LEVEL:STATIC=ON
 sdl_tower_SOURCE_DIR:STATIC=/home/Chens/Documents/Git/Pizza Tower/SDL-Tower
 
 //Value Computed by CMake
-sdl_tower_exe_BINARY_DIR:STATIC=/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build/src
+sdl_tower_entities_BINARY_DIR:STATIC=/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build/src/Entities
+
+//Value Computed by CMake
+sdl_tower_entities_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+sdl_tower_entities_SOURCE_DIR:STATIC=/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/Entities
+
+//Value Computed by CMake
+sdl_tower_exe_BINARY_DIR:STATIC=/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build/src/Entities
 
 //Value Computed by CMake
 sdl_tower_exe_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-sdl_tower_exe_SOURCE_DIR:STATIC=/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src
+sdl_tower_exe_SOURCE_DIR:STATIC=/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/Entities
 
 
 ########################
@@ -437,7 +473,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

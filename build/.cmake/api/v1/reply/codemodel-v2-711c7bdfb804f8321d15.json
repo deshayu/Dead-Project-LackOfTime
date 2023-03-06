@@ -28,7 +28,6 @@
 						6,
 						7,
 						8,
-						9,
 						10,
 						11,
 						12,
@@ -46,11 +45,16 @@
 						24,
 						25,
 						26,
-						27
+						27,
+						28
 					]
 				},
 				{
 					"build" : "src",
+					"childIndexes" : 
+					[
+						2
+					],
 					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
 					"minimumCMakeVersion" : 
 					{
@@ -61,7 +65,22 @@
 					"source" : "src",
 					"targetIndexes" : 
 					[
-						28
+						29
+					]
+				},
+				{
+					"build" : "src/Entities",
+					"jsonFile" : "directory-src.Entities-Debug-b708efb5ca49e3d81457.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/Entities",
+					"targetIndexes" : 
+					[
+						9
 					]
 				}
 			],
@@ -77,7 +96,7 @@
 					[
 						0
 					],
-					"name" : "sdl_tower",
+					"name" : "SDL_Tower",
 					"targetIndexes" : 
 					[
 						0,
@@ -89,7 +108,6 @@
 						6,
 						7,
 						8,
-						9,
 						10,
 						11,
 						12,
@@ -107,19 +125,22 @@
 						24,
 						25,
 						26,
-						27
+						27,
+						28
 					]
 				},
 				{
 					"directoryIndexes" : 
 					[
-						1
+						1,
+						2
 					],
-					"name" : "sdl_tower_exe",
+					"name" : "SDL_Tower_exe",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						28
+						9,
+						29
 					]
 				}
 			],
@@ -187,6 +208,13 @@
 					"jsonFile" : "target-ContinuousUpdate-Debug-bfe1113cb19e2902a41b.json",
 					"name" : "ContinuousUpdate",
 					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Entities::@4a5426fe2dd032054abc",
+					"jsonFile" : "target-Entities-Debug-b4d979d39cf2b1e0cb05.json",
+					"name" : "Entities",
+					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
@@ -323,9 +351,9 @@
 				},
 				{
 					"directoryIndex" : 1,
-					"id" : "sdl_tower::@145eef247bfb46b6828c",
-					"jsonFile" : "target-sdl_tower-Debug-0b3b964acde2699aa85d.json",
-					"name" : "sdl_tower",
+					"id" : "SDL_Tower_exe::@145eef247bfb46b6828c",
+					"jsonFile" : "target-SDL_Tower_exe-Debug-1e8e53fd0c557624ba52.json",
+					"name" : "SDL_Tower_exe",
 					"projectIndex" : 1
 				}
 			]

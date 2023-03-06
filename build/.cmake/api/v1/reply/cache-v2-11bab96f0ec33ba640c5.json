@@ -795,7 +795,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2"
+			"value" : "3"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "sdl_tower"
+			"value" : "SDL_Tower"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -1718,6 +1718,114 @@
 			"value" : ""
 		},
 		{
+			"name" : "SDL_Tower_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build"
+		},
+		{
+			"name" : "SDL_Tower_EXE_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build/src"
+		},
+		{
+			"name" : "SDL_Tower_EXE_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SDL_Tower_EXE_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src"
+		},
+		{
+			"name" : "SDL_Tower_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "SDL_Tower_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower"
+		},
+		{
+			"name" : "SDL_Tower_exe_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build/src"
+		},
+		{
+			"name" : "SDL_Tower_exe_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SDL_Tower_exe_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src"
+		},
+		{
 			"name" : "SITE",
 			"properties" : 
 			[
@@ -1798,6 +1906,42 @@
 			"value" : "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower"
 		},
 		{
+			"name" : "sdl_tower_entities_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build/src/Entities"
+		},
+		{
+			"name" : "sdl_tower_entities_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "sdl_tower_entities_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/Entities"
+		},
+		{
 			"name" : "sdl_tower_exe_BINARY_DIR",
 			"properties" : 
 			[
@@ -1807,7 +1951,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build/src"
+			"value" : "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build/src/Entities"
 		},
 		{
 			"name" : "sdl_tower_exe_IS_TOP_LEVEL",
@@ -1831,7 +1975,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src"
+			"value" : "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/Entities"
 		}
 	],
 	"kind" : "cache",

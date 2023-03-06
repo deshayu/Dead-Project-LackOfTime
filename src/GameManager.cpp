@@ -29,12 +29,20 @@ GameManager::GameManager(){
 		mQuit = true;
 
 	mTimer = Timer::Instance();
+
+	mParent = new GameEntity(100.0f, 400.0f);
+	mChild = new GameEntity(100.0f, 500.0f);
+
+	mChild->Parent(mParent);
 }
 
 GameManager::~GameManager(){
     
     Graphics::Release();
 	mGraphics = NULL;
+
+	delete mParent;
+	delete mChild;
 }
 
 void GameManager::Run(){

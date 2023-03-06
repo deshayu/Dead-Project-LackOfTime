@@ -1,15 +1,14 @@
 # ninja log v5
 1	1090	1678037933977403648	CMakeFiles/sdl_tower.dir/main.cpp.o	e5f13305d70c5be1
-1090	1172	1678037934058403654	sdl_tower	f98a0e375156d28e
 1	161	1678046815779042369	CMakeFiles/sdl_tower.dir/src/graphics.cpp.o	f01f90a4ee01739d
-7	1379	1678053689275536666	src/CMakeFiles/sdl_tower.dir/main.cpp.o	22713014d26b69f5
+1	806	1678110278069685270	src/CMakeFiles/sdl_tower.dir/main.cpp.o	9c0abb0812a8baa1
 0	864	1678048449392159848	src/CMakeFiles/sdl_tower.dir/graphics.cpp.o	46d66c3597873970
-7	1362	1678053689256536665	src/CMakeFiles/sdl_tower.dir/Graphics.cpp.o	8463eade79d2c4ac
-1380	1502	1678053689397536675	src/sdl_tower	7e2c4d10207c8ee8
-7	1361	1678053689257536665	src/CMakeFiles/sdl_tower.dir/GameManager.cpp.o	3e899ef1cb121343
-2	1026	1678054492902594458	src/CMakeFiles/sdl_tower.dir/main.cpp.o	22713014d26b69f5
-2	1101	1678054492977594463	src/CMakeFiles/sdl_tower.dir/GameManager.cpp.o	3e899ef1cb121343
-1	813	1678054596296601893	src/CMakeFiles/sdl_tower.dir/Timer.cpp.o	6162210632494a61
-813	907	1678054596388601900	src/sdl_tower	9e44f53693371025
-1	851	1678054613878603158	src/CMakeFiles/sdl_tower.dir/GameManager.cpp.o	3e899ef1cb121343
-851	938	1678054613965603164	src/sdl_tower	9e44f53693371025
+1	866	1678108602625754795	src/CMakeFiles/sdl_tower.dir/Graphics.cpp.o	ca27379fc34802d
+2	810	1678110278075685270	src/CMakeFiles/sdl_tower.dir/GameManager.cpp.o	ff2299ba736c971c
+1	970	1678108602730754790	src/CMakeFiles/sdl_tower.dir/Timer.cpp.o	286989b2ac4770b4
+1	242	1678114304707518180	src/Entities/CMakeFiles/Entities.dir/GameEntity.cpp.o	5ec41b27ba5c7b08
+1	797	1678114428429513046	src/CMakeFiles/SDL_Tower_exe.dir/Graphics.cpp.o	2142a7fa7bc0d44c
+1	836	1678114428468513044	src/CMakeFiles/SDL_Tower_exe.dir/Timer.cpp.o	de79785585ce3069
+1	829	1678113174722565070	src/CMakeFiles/SDL_Tower_exe.dir/main.cpp.o	f1eed6e5a886fcf1
+2	823	1678114267247519734	src/CMakeFiles/SDL_Tower_exe.dir/GameManager.cpp.o	98e96f08f837174a
+249	278	1678113174170565093	src/Entities/libEntities.a	249cfd130c96dcae
