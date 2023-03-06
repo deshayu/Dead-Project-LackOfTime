@@ -498,59 +498,66 @@ build CMakeFiles/ContinuousSubmit | ${cmake_ninja_workdir}CMakeFiles/ContinuousS
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target SDL_Tower_exe
+# Object build statements for EXECUTABLE target SDL_Tower
 
 
 #############################################
-# Order-only phony target for SDL_Tower_exe
+# Order-only phony target for SDL_Tower
 
-build cmake_object_order_depends_target_SDL_Tower_exe: phony || src/CMakeFiles/SDL_Tower_exe.dir
+build cmake_object_order_depends_target_SDL_Tower: phony || src/CMakeFiles/SDL_Tower.dir
 
-build src/CMakeFiles/SDL_Tower_exe.dir/main.cpp.o: CXX_COMPILER__SDL_Tower_exe_Debug /home/Chens/Documents/Git/Pizza$ Tower/SDL-Tower/src/main.cpp || cmake_object_order_depends_target_SDL_Tower_exe
-  DEP_FILE = src/CMakeFiles/SDL_Tower_exe.dir/main.cpp.o.d
+build src/CMakeFiles/SDL_Tower.dir/main.cpp.o: CXX_COMPILER__SDL_Tower_Debug /home/Chens/Documents/Git/Pizza$ Tower/SDL-Tower/src/main.cpp || cmake_object_order_depends_target_SDL_Tower
+  DEP_FILE = src/CMakeFiles/SDL_Tower.dir/main.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include" -I"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include/Entities"
-  OBJECT_DIR = src/CMakeFiles/SDL_Tower_exe.dir
-  OBJECT_FILE_DIR = src/CMakeFiles/SDL_Tower_exe.dir
+  INCLUDES = -I"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/../include/Entities" -I"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include"
+  OBJECT_DIR = src/CMakeFiles/SDL_Tower.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/SDL_Tower.dir
 
-build src/CMakeFiles/SDL_Tower_exe.dir/GameManager.cpp.o: CXX_COMPILER__SDL_Tower_exe_Debug /home/Chens/Documents/Git/Pizza$ Tower/SDL-Tower/src/GameManager.cpp || cmake_object_order_depends_target_SDL_Tower_exe
-  DEP_FILE = src/CMakeFiles/SDL_Tower_exe.dir/GameManager.cpp.o.d
+build src/CMakeFiles/SDL_Tower.dir/GameManager.cpp.o: CXX_COMPILER__SDL_Tower_Debug /home/Chens/Documents/Git/Pizza$ Tower/SDL-Tower/src/GameManager.cpp || cmake_object_order_depends_target_SDL_Tower
+  DEP_FILE = src/CMakeFiles/SDL_Tower.dir/GameManager.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include" -I"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include/Entities"
-  OBJECT_DIR = src/CMakeFiles/SDL_Tower_exe.dir
-  OBJECT_FILE_DIR = src/CMakeFiles/SDL_Tower_exe.dir
+  INCLUDES = -I"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/../include/Entities" -I"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include"
+  OBJECT_DIR = src/CMakeFiles/SDL_Tower.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/SDL_Tower.dir
 
-build src/CMakeFiles/SDL_Tower_exe.dir/Graphics.cpp.o: CXX_COMPILER__SDL_Tower_exe_Debug /home/Chens/Documents/Git/Pizza$ Tower/SDL-Tower/src/Graphics.cpp || cmake_object_order_depends_target_SDL_Tower_exe
-  DEP_FILE = src/CMakeFiles/SDL_Tower_exe.dir/Graphics.cpp.o.d
+build src/CMakeFiles/SDL_Tower.dir/Graphics.cpp.o: CXX_COMPILER__SDL_Tower_Debug /home/Chens/Documents/Git/Pizza$ Tower/SDL-Tower/src/Graphics.cpp || cmake_object_order_depends_target_SDL_Tower
+  DEP_FILE = src/CMakeFiles/SDL_Tower.dir/Graphics.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include" -I"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include/Entities"
-  OBJECT_DIR = src/CMakeFiles/SDL_Tower_exe.dir
-  OBJECT_FILE_DIR = src/CMakeFiles/SDL_Tower_exe.dir
+  INCLUDES = -I"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/../include/Entities" -I"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include"
+  OBJECT_DIR = src/CMakeFiles/SDL_Tower.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/SDL_Tower.dir
 
-build src/CMakeFiles/SDL_Tower_exe.dir/Timer.cpp.o: CXX_COMPILER__SDL_Tower_exe_Debug /home/Chens/Documents/Git/Pizza$ Tower/SDL-Tower/src/Timer.cpp || cmake_object_order_depends_target_SDL_Tower_exe
-  DEP_FILE = src/CMakeFiles/SDL_Tower_exe.dir/Timer.cpp.o.d
+build src/CMakeFiles/SDL_Tower.dir/Timer.cpp.o: CXX_COMPILER__SDL_Tower_Debug /home/Chens/Documents/Git/Pizza$ Tower/SDL-Tower/src/Timer.cpp || cmake_object_order_depends_target_SDL_Tower
+  DEP_FILE = src/CMakeFiles/SDL_Tower.dir/Timer.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include" -I"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include/Entities"
-  OBJECT_DIR = src/CMakeFiles/SDL_Tower_exe.dir
-  OBJECT_FILE_DIR = src/CMakeFiles/SDL_Tower_exe.dir
+  INCLUDES = -I"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/../include/Entities" -I"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include"
+  OBJECT_DIR = src/CMakeFiles/SDL_Tower.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/SDL_Tower.dir
+
+build src/CMakeFiles/SDL_Tower.dir/GameEntity.cpp.o: CXX_COMPILER__SDL_Tower_Debug /home/Chens/Documents/Git/Pizza$ Tower/SDL-Tower/src/GameEntity.cpp || cmake_object_order_depends_target_SDL_Tower
+  DEP_FILE = src/CMakeFiles/SDL_Tower.dir/GameEntity.cpp.o.d
+  FLAGS = -g
+  INCLUDES = -I"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/../include/Entities" -I"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include"
+  OBJECT_DIR = src/CMakeFiles/SDL_Tower.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/SDL_Tower.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target SDL_Tower_exe
+# Link build statements for EXECUTABLE target SDL_Tower
 
 
 #############################################
-# Link the executable src/SDL_Tower_exe
+# Link the executable src/SDL_Tower
 
-build src/SDL_Tower_exe: CXX_EXECUTABLE_LINKER__SDL_Tower_exe_Debug src/CMakeFiles/SDL_Tower_exe.dir/main.cpp.o src/CMakeFiles/SDL_Tower_exe.dir/GameManager.cpp.o src/CMakeFiles/SDL_Tower_exe.dir/Graphics.cpp.o src/CMakeFiles/SDL_Tower_exe.dir/Timer.cpp.o
+build src/SDL_Tower: CXX_EXECUTABLE_LINKER__SDL_Tower_Debug src/CMakeFiles/SDL_Tower.dir/main.cpp.o src/CMakeFiles/SDL_Tower.dir/GameManager.cpp.o src/CMakeFiles/SDL_Tower.dir/Graphics.cpp.o src/CMakeFiles/SDL_Tower.dir/Timer.cpp.o src/CMakeFiles/SDL_Tower.dir/GameEntity.cpp.o
   FLAGS = -g
   LINK_FLAGS = -rdynamic
   LINK_LIBRARIES = -lSDL2main  -lSDL2
-  OBJECT_DIR = src/CMakeFiles/SDL_Tower_exe.dir
+  OBJECT_DIR = src/CMakeFiles/SDL_Tower.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = src/SDL_Tower_exe
-  TARGET_PDB = SDL_Tower_exe.dbg
+  TARGET_FILE = src/SDL_Tower
+  TARGET_PDB = SDL_Tower.dbg
 
 
 #############################################
@@ -613,109 +620,9 @@ build src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
-# Write statements declared in CMakeLists.txt:
-# /home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/CMakeLists.txt
-# =============================================================================
-
-# =============================================================================
-# Object build statements for STATIC_LIBRARY target Entities
-
-
-#############################################
-# Order-only phony target for Entities
-
-build cmake_object_order_depends_target_Entities: phony || src/Entities/CMakeFiles/Entities.dir
-
-build src/Entities/CMakeFiles/Entities.dir/GameEntity.cpp.o: CXX_COMPILER__Entities_Debug /home/Chens/Documents/Git/Pizza$ Tower/SDL-Tower/src/Entities/GameEntity.cpp || cmake_object_order_depends_target_Entities
-  DEP_FILE = src/Entities/CMakeFiles/Entities.dir/GameEntity.cpp.o.d
-  FLAGS = -g
-  OBJECT_DIR = src/Entities/CMakeFiles/Entities.dir
-  OBJECT_FILE_DIR = src/Entities/CMakeFiles/Entities.dir
-
-
-# =============================================================================
-# Link build statements for STATIC_LIBRARY target Entities
-
-
-#############################################
-# Link the static library src/Entities/libEntities.a
-
-build src/Entities/libEntities.a: CXX_STATIC_LIBRARY_LINKER__Entities_Debug src/Entities/CMakeFiles/Entities.dir/GameEntity.cpp.o
-  LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = src/Entities/CMakeFiles/Entities.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = src/Entities/libEntities.a
-  TARGET_PDB = Entities.a.dbg
-
-
-#############################################
-# Utility command for package
-
-build src/Entities/CMakeFiles/package.util: CUSTOM_COMMAND src/Entities/all
-  COMMAND = cd "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build" && /usr/bin/cpack --config ./CPackConfig.cmake
-  DESC = Run CPack packaging tool...
-  pool = console
-  restat = 1
-
-build src/Entities/package: phony src/Entities/CMakeFiles/package.util
-
-
-#############################################
-# Utility command for package_source
-
-build src/Entities/CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build" && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/Chens/Documents/Git/Pizza\ Tower/SDL-Tower/build/CPackSourceConfig.cmake
-  DESC = Run CPack packaging tool for source...
-  pool = console
-  restat = 1
-
-build src/Entities/package_source: phony src/Entities/CMakeFiles/package_source.util
-
-
-#############################################
-# Utility command for test
-
-build src/Entities/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build/src/Entities" && /usr/bin/ctest --force-new-ctest-process
-  DESC = Running tests...
-  pool = console
-  restat = 1
-
-build src/Entities/test: phony src/Entities/CMakeFiles/test.util
-
-
-#############################################
-# Utility command for edit_cache
-
-build src/Entities/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build/src/Entities" && /usr/bin/ccmake -S"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower" -B"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build"
-  DESC = Running CMake cache editor...
-  pool = console
-  restat = 1
-
-build src/Entities/edit_cache: phony src/Entities/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build src/Entities/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build/src/Entities" && /usr/bin/cmake --regenerate-during-build -S"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower" -B"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build src/Entities/rebuild_cache: phony src/Entities/CMakeFiles/rebuild_cache.util
-
-# =============================================================================
 # Target aliases.
 
-build Entities: phony src/Entities/libEntities.a
-
-build SDL_Tower_exe: phony src/SDL_Tower_exe
-
-build libEntities.a: phony src/Entities/libEntities.a
+build SDL_Tower: phony src/SDL_Tower
 
 # =============================================================================
 # Folder targets.
@@ -732,14 +639,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build/src
 
-build src/all: phony src/SDL_Tower_exe src/Entities/all
-
-# =============================================================================
-
-#############################################
-# Folder: /home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build/src/Entities
-
-build src/Entities/all: phony src/Entities/libEntities.a
+build src/all: phony src/SDL_Tower
 
 # =============================================================================
 # Unknown Build Time Dependencies.
@@ -753,14 +653,14 @@ build src/Entities/all: phony src/Entities/libEntities.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/Chens/Documents/Git/Pizza$ Tower/SDL-Tower/CMakeLists.txt /home/Chens/Documents/Git/Pizza$ Tower/SDL-Tower/src/CMakeLists.txt /home/Chens/Documents/Git/Pizza$ Tower/SDL-Tower/src/Entities/CMakeLists.txt /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CPack.cmake /usr/share/cmake/Modules/CPackComponent.cmake /usr/share/cmake/Modules/CTest.cmake /usr/share/cmake/Modules/CTestTargets.cmake /usr/share/cmake/Modules/CTestUseLaunchers.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/DartConfiguration.tcl.in /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake /usr/share/cmake/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/Chens/Documents/Git/Pizza$ Tower/SDL-Tower/CMakeLists.txt /home/Chens/Documents/Git/Pizza$ Tower/SDL-Tower/src/CMakeLists.txt /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CPack.cmake /usr/share/cmake/Modules/CPackComponent.cmake /usr/share/cmake/Modules/CTest.cmake /usr/share/cmake/Modules/CTestTargets.cmake /usr/share/cmake/Modules/CTestUseLaunchers.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/DartConfiguration.tcl.in /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake /usr/share/cmake/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/Chens/Documents/Git/Pizza$ Tower/SDL-Tower/CMakeLists.txt /home/Chens/Documents/Git/Pizza$ Tower/SDL-Tower/src/CMakeLists.txt /home/Chens/Documents/Git/Pizza$ Tower/SDL-Tower/src/Entities/CMakeLists.txt /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CPack.cmake /usr/share/cmake/Modules/CPackComponent.cmake /usr/share/cmake/Modules/CTest.cmake /usr/share/cmake/Modules/CTestTargets.cmake /usr/share/cmake/Modules/CTestUseLaunchers.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/DartConfiguration.tcl.in /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake /usr/share/cmake/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake: phony
+build /home/Chens/Documents/Git/Pizza$ Tower/SDL-Tower/CMakeLists.txt /home/Chens/Documents/Git/Pizza$ Tower/SDL-Tower/src/CMakeLists.txt /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CPack.cmake /usr/share/cmake/Modules/CPackComponent.cmake /usr/share/cmake/Modules/CTest.cmake /usr/share/cmake/Modules/CTestTargets.cmake /usr/share/cmake/Modules/CTestUseLaunchers.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/DartConfiguration.tcl.in /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake /usr/share/cmake/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake: phony
 
 
 #############################################

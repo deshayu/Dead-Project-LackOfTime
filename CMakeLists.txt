@@ -3,6 +3,7 @@ project(SDL_Tower VERSION 0.0.1)
 
 # Directories
 add_subdirectory("src")
+
 # Headers
 target_include_directories(SDL_Tower PRIVATE include)
 

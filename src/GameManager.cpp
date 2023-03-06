@@ -1,5 +1,6 @@
 #include "GameManager.h"
 
+
 GameManager* GameManager::sInstance = NULL;
 
 GameManager* GameManager::Instance(){
@@ -31,7 +32,7 @@ GameManager::GameManager(){
 	mTimer = Timer::Instance();
 
 	mParent = new GameEntity(100.0f, 400.0f);
-	mChild = new GameEntity(100.0f, 500.0f);
+    mChild = new GameEntity(100.0f, 500.0f);
 
 	mChild->Parent(mParent);
 }

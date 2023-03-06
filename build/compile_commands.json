@@ -1,27 +1,27 @@
 [
 {
   "directory": "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build",
-  "command": "/usr/bin/g++ -I\"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include\" -I\"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include/Entities\" -g -o src/CMakeFiles/SDL_Tower_exe.dir/main.cpp.o -c \"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/main.cpp\"",
+  "command": "/usr/bin/g++ -I\"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/../include/Entities\" -I\"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include\" -g -o src/CMakeFiles/SDL_Tower.dir/main.cpp.o -c \"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/main.cpp\"",
   "file": "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/main.cpp"
 },
 {
   "directory": "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build",
-  "command": "/usr/bin/g++ -I\"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include\" -I\"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include/Entities\" -g -o src/CMakeFiles/SDL_Tower_exe.dir/GameManager.cpp.o -c \"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/GameManager.cpp\"",
+  "command": "/usr/bin/g++ -I\"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/../include/Entities\" -I\"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include\" -g -o src/CMakeFiles/SDL_Tower.dir/GameManager.cpp.o -c \"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/GameManager.cpp\"",
   "file": "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/GameManager.cpp"
 },
 {
   "directory": "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build",
-  "command": "/usr/bin/g++ -I\"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include\" -I\"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include/Entities\" -g -o src/CMakeFiles/SDL_Tower_exe.dir/Graphics.cpp.o -c \"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/Graphics.cpp\"",
+  "command": "/usr/bin/g++ -I\"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/../include/Entities\" -I\"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include\" -g -o src/CMakeFiles/SDL_Tower.dir/Graphics.cpp.o -c \"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/Graphics.cpp\"",
   "file": "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/Graphics.cpp"
 },
 {
   "directory": "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build",
-  "command": "/usr/bin/g++ -I\"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include\" -I\"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include/Entities\" -g -o src/CMakeFiles/SDL_Tower_exe.dir/Timer.cpp.o -c \"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/Timer.cpp\"",
+  "command": "/usr/bin/g++ -I\"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/../include/Entities\" -I\"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include\" -g -o src/CMakeFiles/SDL_Tower.dir/Timer.cpp.o -c \"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/Timer.cpp\"",
   "file": "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/Timer.cpp"
 },
 {
   "directory": "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/build",
-  "command": "/usr/bin/g++ -g -o src/Entities/CMakeFiles/Entities.dir/GameEntity.cpp.o -c \"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/Entities/GameEntity.cpp\"",
-  "file": "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/Entities/GameEntity.cpp"
+  "command": "/usr/bin/g++ -I\"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/../include/Entities\" -I\"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include\" -g -o src/CMakeFiles/SDL_Tower.dir/GameEntity.cpp.o -c \"/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/GameEntity.cpp\"",
+  "file": "/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/GameEntity.cpp"
 }
 ]
