@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1678124165 source:/home/Chens/Documents/Git/Pizza Tower/SDL_Tower/SDL_Tower/src/GameEntity.cpp
+	"GameEntity.h"
+
+1678113172 /home/Chens/Documents/Git/Pizza Tower/SDL_Tower/SDL_Tower/include/GameEntity.h
+	"MathHelper.h"
+
+1678123989 /home/Chens/Documents/Git/Pizza Tower/SDL_Tower/SDL_Tower/include/MathHelper.h
+	<math.h>
+
+1678124560 source:/home/Chens/Documents/Git/Pizza Tower/SDL_Tower/SDL_Tower/src/GameManager.cpp
+	"GameManager.h"
+
+1678110087 /home/Chens/Documents/Git/Pizza Tower/SDL_Tower/SDL_Tower/include/GameManager.h
+	"Graphics.h"
+	"Timer.h"
+	"GameEntity.h"
+
+1678054850 /home/Chens/Documents/Git/Pizza Tower/SDL_Tower/SDL_Tower/include/Graphics.h
+	<SDL2/SDL.h>
+	<stdio.h>
+
+1678054490 /home/Chens/Documents/Git/Pizza Tower/SDL_Tower/SDL_Tower/include/Timer.h
+	"SDL2/SDL.h"
+
+1678048622 source:/home/Chens/Documents/Git/Pizza Tower/SDL_Tower/SDL_Tower/src/Graphics.cpp
+	"Graphics.h"
+
+1678049405 source:/home/Chens/Documents/Git/Pizza Tower/SDL_Tower/SDL_Tower/src/main.cpp
+	"GameManager.h"
+
+1678054769 source:/home/Chens/Documents/Git/Pizza Tower/SDL_Tower/SDL_Tower/src/Timer.cpp
+	"Timer.h"
+
+1678113172 /home/Chens/Documents/Git/Pizza Tower/SDL_Tower/SDL_Tower/include/Entities/GameEntity.h
+	"MathHelper.h"
+
+1678124165 source:/home/Chens/Documents/Git/Pizza Tower/SDL_Tower/SDL_Tower/src/Entities/GameEntity.cpp
+	"GameEntity.h"
+
+1678124560 source:/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/GameManager.cpp
+	"GameManager.h"
+
+1678110087 /home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include/GameManager.h
+	"Graphics.h"
+	"Timer.h"
+	"GameEntity.h"
+
+1678054850 /home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include/Graphics.h
+	<SDL2/SDL.h>
+	<stdio.h>
+
+1678054490 /home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include/Timer.h
+	"SDL2/SDL.h"
+
+1678048622 source:/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/Graphics.cpp
+	"Graphics.h"
+
+1678049405 source:/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/main.cpp
+	"GameManager.h"
+
+1678054769 source:/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/Timer.cpp
+	"Timer.h"
+
+1678124165 source:/home/Chens/Documents/Git/Pizza Tower/SDL-Tower/src/Entities/GameEntity.cpp
+	"GameEntity.h"
+
+1678113172 /home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include/Entities/GameEntity.h
+	"MathHelper.h"
+
+1678123989 /home/Chens/Documents/Git/Pizza Tower/SDL-Tower/include/MathHelper.h
+	<math.h>
+

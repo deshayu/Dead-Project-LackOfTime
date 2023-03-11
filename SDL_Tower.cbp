@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SDL_Tower" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SDL_Tower" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="include/Entities" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SDL_Tower" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`sdl2-config --cflags`" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="`sdl2-config --libs`" />
+		</Linker>
+		<Unit filename="include/Entities/GameEntity.h" />
+		<Unit filename="include/GameManager.h" />
+		<Unit filename="include/Graphics.h" />
+		<Unit filename="include/MathHelper.h" />
+		<Unit filename="include/Timer.h" />
+		<Unit filename="src/Entities/GameEntity.cpp" />
+		<Unit filename="src/GameManager.cpp" />
+		<Unit filename="src/Graphics.cpp" />
+		<Unit filename="src/Timer.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
