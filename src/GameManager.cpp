@@ -31,23 +31,25 @@ GameManager::GameManager(){
 
 	mTimer = Timer::Instance();
 
-	mParent = new GameEntity(100.0f, 400.0f);
-    mChild = new GameEntity(100.0f, 500.0f);
-
-	mChild->Parent(mParent);
+	std::string path = SDL_GetBasePath();
+	path.append("Assets/rankA.png");
+	mTex = new Texture(path);
 }
 
 GameManager::~GameManager(){
-    
+
     Graphics::Release();
 	mGraphics = NULL;
 
-	delete mParent;
-	delete mChild;
+	Timer::Release();
+	mTimer = NULL;
+
+	delete mTex;
+	mTex = NULL;
 }
 
 void GameManager::Run(){
-    
+
     while(!mQuit){
 
         //Update the timer
@@ -62,10 +64,13 @@ void GameManager::Run(){
 		}
 		if(mTimer->DeltaTime() >= 1.0f / FRAME_RATE){
 
+            mGraphics->ClearBackBuffer();
+
+            mTex->Render();
+
 			//printf("DeltaTime: %f\n", mTimer->DeltaTime());
 
 			mGraphics->Render();
-
 			mTimer->Reset();
 		}
     }

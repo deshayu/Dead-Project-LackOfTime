@@ -1,9 +1,8 @@
 #ifndef _GAMEMANAGER_H
 #define _GAMEMANAGER_H
 // Headers
-#include "Graphics.h"
+#include "Texture.h"
 #include "Timer.h"
-#include "GameEntity.h"
 
 class GameManager{
 
@@ -20,8 +19,7 @@ class GameManager{
 
         SDL_Event mEvents;
 
-        GameEntity* mParent;
-        GameEntity* mChild;
+        Texture* mTex;
 
     public:
 
